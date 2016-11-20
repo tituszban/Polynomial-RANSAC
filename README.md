@@ -8,3 +8,7 @@ Besides the basic Ply RANSAC the project also included a RANSAC controller, that
 
 For this to work I also created code for generating random sets of data, with set inlier and outlier numbers, against which the algorithm can be tested.
 
+![example](http://i.imgur.com/5c5vDPC.png)
+
+Note that files are not commented / in a working state. Mistakes may have been made.
+Inlcuded files: 
