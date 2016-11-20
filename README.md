@@ -12,3 +12,12 @@ For this to work I also created code for generating random sets of data, with se
 
 Note that files are not commented / in a working state. Mistakes may have been made.
 Inlcuded files: 
+
+data_generator.m - generates random set of points on a line with noise
+polynomial_data_generator.m - generates random set of points on any order polynomial with noise
+polynomial_distance.m - determines the distance of a point and a polynomial
+polynomial_distance2.m - determines the squared distance of a polynomial and an array of points
+polynomial_ransac.m - ransac algorithm with a set number of iterations on a given order of polynomial
+polynomial_ransac_controller.m - tests multiple order ransacs with calculated iteration numbers, based on user estimated data/noise ratio
+ransac.m - fits a line through a set of data using ransac algorithm
+wighted_random_data.m - used in polynomial_ransac.m for weighing inlier points when selecting new sample
